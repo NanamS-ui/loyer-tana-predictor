@@ -1,0 +1,40 @@
+# --- Modèle (exporté localement depuis le notebook, ne pas versionner) ---
+models/*
+!models/.gitkeep
+
+# --- Script de réentraînement local (non partagé) ---
+scripts/train_and_export.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Variables d'environnement ---
+.env
+.env.*

@@ -1,8 +1,10 @@
-# --- Modèle (exporté localement depuis le notebook, ne pas versionner) ---
+# --- Modèle (fichiers d'inférence pour le déploiement Streamlit) ---
 models/*
 !models/.gitkeep
+!models/modele_loyer.joblib
+!models/metadata.json
 
-# --- Script de réentraînement local (non partagé) ---
+# --- Script de réentraînement local ---
 scripts/train_and_export.py
 
 # --- Python ---
